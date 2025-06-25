@@ -1,39 +1,51 @@
 # Database-of-AgriMart
 One-stop-Shop for all
 
-# Environmental Monitoring System
+# AgriMart Database System
 
-This project focuses on building a real-time Environmental Monitoring System using ESP32 microcontrollers and various sensors. The system is capable of measuring and transmitting data such as temperature, humidity, pressure, current, and gas concentration.
+This project implements a relational database system for AgriMart using PostgreSQL. It is designed to support agricultural trade by enabling direct transactions between farmers, buyers, dealers, and transport providers. The goal is to reduce dependency on intermediaries and ensure fair pricing and efficient logistics.
 
-## System Overview
+## Project Overview
 
-The system uses two ESP32 boards configured in a master-slave architecture using the MODBUS RTU protocol. The slave ESP32 reads data from multiple sensors and sends it to the master ESP32. The master then publishes this data over MQTT to a Node.js server, which stores the data in a MongoDB database. A DWIN touch display is used to show the data visually.
+AgriMart serves as a backend data system for managing crop and item listings, user information, order processing, and delivery tracking. It supports both farmer-to-buyer and dealer-to-farmer transaction flows, while integrating transport services into the system.
 
-## Components Used
+## Technologies Used
 
-- ESP32 (2 units)
-- DHT22 (Temperature and Humidity Sensor)
-- BMP280 (Pressure Sensor)
-- ACS712 (Current Sensor)
-- MQ135 (Gas Sensor)
-- DWIN HDL662B Display
-- SD card for DWIN display files
+- PostgreSQL
+- Dia (for ER and relational diagrams)
+- SQL (for queries and data manipulation)
 
-## Technologies
+## Features
 
-- Arduino IDE (ESP32 programming)
-- MODBUS RTU protocol
-- MQTT (via HiveMQ broker)
-- Node.js (Express, Mongoose, MQTT)
-- MongoDB
-- DGUS Software (for DWIN display interface)
-- HTML, CSS, JavaScript (for frontend display)
+- Farmers and dealers can list available crops or items with detailed information such as quantity, rate, and location.
+- Buyers can place orders, view seller details, and receive deliveries through assigned transport providers.
+- Transaction data includes delivery dates, ratings, freight charges, and quantities bought.
+- Ratings are collected for both dealers and transport providers to maintain quality.
+- Various SQL queries are written to retrieve useful insights from the data.
 
-## Project Files
+## Database Design
 
-- `Final_Master.ino` – Code for master ESP32 (MODBUS read + MQTT publish)
-- `Final_Slave.ino` – Code for slave ESP32 (sensor read + MODBUS write)
-- `Project_Report.pdf` – Complete project documentation
-- `Project_Poster.pdf` – Project poster for presentation
+- **ER Diagram** models entities like User, Crop, Item, Address, and Transaction.
+- **Relational Schema** is fully normalized to BCNF to maintain data consistency.
+- Primary keys and composite keys are used appropriately across tables.
+- Functional Dependencies are documented and proven for each relation.
 
-For more details on implementation and issues faced during development, refer to the report and code files.
+## SQL Query Highlights
+
+The SQL queries cover a range of use cases, including:
+- Listing crops by farmer region
+- Calculating total transaction amount between specific users
+- Finding average transport provider ratings
+- Identifying late or pending deliveries
+- Ranking farmers by total revenue or ratings
+- Listing items on sale or comparing prices
+- Tracking crop sales by quantity or cost across different users
+
+## Reference Files
+
+Please refer to the following files for detailed implementation:
+
+- `Project_Report.pdf` – Contains schema documentation, BCNF proofs, and entity definitions
+- `SQL_Queries.txt` – Includes all major SQL queries for analysis and reporting
+- `Relation_Schema` – Outlines all tables, attributes, and keys used in the system
+- `ER_Diagram` – Visual ER representation of the entire database design
