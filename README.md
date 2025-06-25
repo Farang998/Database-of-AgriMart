@@ -1,6 +1,3 @@
-# Database-of-AgriMart
-One-stop-Shop for all
-
 # AgriMart Database System
 
 This project implements a relational database system for AgriMart using PostgreSQL. It is designed to support agricultural trade by enabling direct transactions between farmers, buyers, dealers, and transport providers. The goal is to reduce dependency on intermediaries and ensure fair pricing and efficient logistics.
