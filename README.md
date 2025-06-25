@@ -1,77 +1,39 @@
 # Database-of-AgriMart
 One-stop-Shop for all
 
-# 🌾 AgriMart Database System
+# Environmental Monitoring System
 
-AgriMart is a relational database project built using PostgreSQL. It is designed to streamline the agricultural supply chain by connecting farmers, buyers, dealers, and transport providers on a single data-driven platform. The goal is to reduce dependency on intermediaries and enable fair, transparent, and efficient trade.
+This project focuses on building a real-time Environmental Monitoring System using ESP32 microcontrollers and various sensors. The system is capable of measuring and transmitting data such as temperature, humidity, pressure, current, and gas concentration.
 
----
+## System Overview
 
-## 📌 Project Overview
+The system uses two ESP32 boards configured in a master-slave architecture using the MODBUS RTU protocol. The slave ESP32 reads data from multiple sensors and sends it to the master ESP32. The master then publishes this data over MQTT to a Node.js server, which stores the data in a MongoDB database. A DWIN touch display is used to show the data visually.
 
-This project supports both farmer-to-buyer and dealer-to-farmer transactions. It handles data related to product listings, user information, order details, delivery tracking, and feedback ratings. The design ensures data integrity, normalization, and ease of query execution.
+## Components Used
 
----
+- ESP32 (2 units)
+- DHT22 (Temperature and Humidity Sensor)
+- BMP280 (Pressure Sensor)
+- ACS712 (Current Sensor)
+- MQ135 (Gas Sensor)
+- DWIN HDL662B Display
+- SD card for DWIN display files
 
-## ⚙️ Technologies Used
+## Technologies
 
-- **PostgreSQL** – Database creation and querying
-- **Dia** – ER and Relational Diagram design
-- **SQL** – Query formulation and testing
+- Arduino IDE (ESP32 programming)
+- MODBUS RTU protocol
+- MQTT (via HiveMQ broker)
+- Node.js (Express, Mongoose, MQTT)
+- MongoDB
+- DGUS Software (for DWIN display interface)
+- HTML, CSS, JavaScript (for frontend display)
 
----
+## Project Files
 
-## 🔍 Key Features
+- `Final_Master.ino` – Code for master ESP32 (MODBUS read + MQTT publish)
+- `Final_Slave.ino` – Code for slave ESP32 (sensor read + MODBUS write)
+- `Project_Report.pdf` – Complete project documentation
+- `Project_Poster.pdf` – Project poster for presentation
 
-- Farmers and dealers can list crops or items with quantity, rate, and location
-- Buyers and farmers can place and track orders directly
-- Integration of transport providers with delivery ratings and logistics tracking
-- Feedback collection for service quality evaluation
-- Queries for identifying top performers, delivery issues, and cost analysis
-
----
-
-## 🧱 Database Design
-
-- **ER Diagram** – Models entities like Users, Crops, Items, Transactions, and Addresses
-- **Relational Schema** – Designed in BCNF for consistency and normalization
-- **Functional Dependencies** – Clearly defined for each table
-- **Composite & Primary Keys** – Used for unique identification and linking of records
-
----
-
-## 🧠 SQL Query Highlights
-
-- List crops by region
-- Track transaction amount between buyer and farmer
-- Calculate average transport ratings
-- Detect late or pending deliveries
-- Rank farmers by revenue and ratings
-- Find cheapest item rates
-- Analyze purchase volume and logistics cost
-
----
-
-## 📁 Reference Files
-
-For complete implementation details, please refer to the following files included with the project:
-
-- 📄 **Project_Report.pdf** – Contains full documentation including schema, normalization, and table structures  
-- 📄 **SQL_Queries.txt** – A set of tested SQL queries for data retrieval and analysis  
-- 📄 **Relation_Schema** – Table structures with keys and attributes  
-- 📄 **ER_Diagram** – Visual representation of the database model
-
----
-
-## 📬 Authors
-
-Group 08  
-- Patel Apurv A.  
-- Patel Naitik D.  
-- Shethwala Nauman  
-- Chirag Katkoriya  
-- Gori Faran F.
-
----
-
-
+For more details on implementation and issues faced during development, refer to the report and code files.
