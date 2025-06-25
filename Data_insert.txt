@@ -1,0 +1,653 @@
+INSERT INTO pincodetable (pincode, state, district, city)
+VALUES ('362520', 'Daman and Diu', 'Diu', 'Diu'), 
+		('362540', 'Daman and Diu', 'Diu', 'Ghoghla'),
+		('362570', 'Daman and Diu', 'Diu', 'Wanakbara'),
+		('396210', 'Daman and Diu', 'Daman', 'Daman'),
+		('396215', 'Daman and Diu', 'Daman', 'Dabhel'),
+		('396220', 'Daman and Diu', 'Daman', 'Dholar'),
+		('110001', 'Delhi', 'New Delhi', 'Connaught Place'),
+		('110002', 'Delhi', 'Central Delhi', 'Darya Ganj'),
+		('110015', 'Delhi', 'West Delhi', 'Patel Nagar'),
+		('110070', 'Delhi', 'South West Delhi', 'Vasant Kunj'),
+		('110092', 'Delhi', 'East Delhi', 'Preet Vihar'),
+		('110003', 'Delhi', 'South Delhi', 'Lodi Road'),
+		('110004', 'Delhi', 'South Delhi', 'Greater Kailash'),
+		('110005', 'Delhi', 'North Delhi', 'Karol Bagh'),
+		('395003', 'Gujarat', 'Surat', 'Athwa'),
+		('395007', 'Gujarat', 'Surat', 'Adajan'),
+		('396445', 'Gujarat', 'Navsari', 'Chikhli'),
+		('396427', 'Gujarat', 'Navsari', 'Gandevi'),
+		('380009', 'Gujarat', 'Ahmedabad', 'Navrangpura'),
+		('380015', 'Gujarat', 'Ahmedabad', 'Maninagar'),
+		('362001', 'Gujarat', 'Junagadh', 'Junagadh'),
+		('362015', 'Gujarat', 'Junagadh', 'Vanthali'),
+		('360001', 'Gujarat', 'Rajkot', 'Rajkot'),
+		('360004', 'Gujarat', 'Rajkot', 'Mavdi'),
+		('390001', 'Gujarat', 'Vadodara', 'Sayajigunj'),
+		('390020', 'Gujarat', 'Vadodara', 'Alkapuri'),
+		('396580', 'Gujarat', 'NAVSARI', 'VANSDA'),
+		('396540', 'Gujarat', 'NAVSARI', 'CHIKHLI'),
+		('382007', 'Gujarat', 'GANDHINAGAR', 'GANDHINAGAR'),
+		('382010', 'Gujarat', 'GANDHINAGAR', 'GANDHINAGAR'),
+		('380001', 'Gujarat', 'AHMEDABAD', 'AHMEDABAD'),
+		('370201', 'Gujarat', 'Kutch ', 'Gandhidham'),
+		('362610', 'Gujarat', 'Junagadh', 'Vanthali'),
+		('362630', 'Gujarat', 'Junagadh', 'Manavadar'),
+		('362220', 'Gujarat', 'Junagadh', 'Keshod'),
+		('362225', 'Gujarat', 'Junagadh', 'Mangrol'),
+		('362530', 'Gujarat', 'Gir Somnath', 'Gir Gadhda'),
+		('362720', 'Gujarat', 'Gir Somnath', 'Kodinar'),
+		('362275', 'Gujarat', 'Gir Somnath', 'Sutrapada'),
+		('362150', 'Gujarat', 'Gir Somnath', 'Talala'),
+		('362560', 'Gujarat', 'Gir Somnath', 'Una'),
+		('362265', 'Gujarat', 'Gir Somnath', 'Veraval'),
+		('396001', 'Gujarat', 'Valsad', 'Valsad'),
+		('396007', 'Gujarat', 'Valsad', 'Atak Pardi'),
+		('396045', 'Gujarat', 'Valsad', 'Atgam'),
+		('394710', 'Gujarat', 'Dang', 'Ahwa'),
+		('394715', 'Gujarat', 'Dang', 'Pimpari'),
+		('394716', 'Gujarat', 'Dang', 'Subir'),
+		('365601', 'Gujarat', 'Amreli', 'Amreli'),
+		('365220', 'Gujarat', 'Amreli', 'Vadiya'),
+		('365421', 'Gujarat', 'Amreli', 'Babra'),
+		('365430', 'Gujarat', 'Amreli', 'Lathi'),
+		('365535', 'Gujarat', 'Amreli', 'Liliya'),
+		('392001', 'Gujarat', 'Bharuch', 'Bharuch'),
+		('392240', 'Gujarat', 'Bharuch', 'Adol'),
+		('392110', 'Gujarat', 'Bharuch', 'Advala'),
+		('392130', 'Gujarat', 'Bharuch', 'Akod'),
+		('122001', 'Haryana', 'Gurugram', 'Civil Lines'),
+		('122002', 'Haryana', 'Gurugram', 'DLF Phase 1'),
+		('122003', 'Haryana', 'Gurugram', 'Sector 14'),
+		('122004', 'Haryana', 'Gurugram', 'Sector 56'),
+		('122005', 'Haryana', 'Gurugram', 'Palam Vihar'),
+		('560001', 'Karnataka', 'Bengaluru Urban', 'MG Road'),
+		('560002', 'Karnataka', 'Bengaluru Urban', 'Chickpet'),
+		('560003', 'Karnataka', 'Bengaluru Urban', 'Malleshwaram'),
+		('560004', 'Karnataka', 'Bengaluru Urban', 'Basavanagudi'),
+		('560005', 'Karnataka', 'Bengaluru Urban', 'Fraser Town'),
+		('682001', 'Kerala', 'Ernakulam', 'Kochi GPO'),
+		('682002', 'Kerala', 'Ernakulam', 'Mattancherry'),
+		('682003', 'Kerala', 'Ernakulam', 'Fort Kochi'),
+		('682004', 'Kerala', 'Ernakulam', 'Edappally'),
+		('682005', 'Kerala', 'Ernakulam', 'Vyttila'),
+		('695001', 'Kerala', 'Thiruvananthapuram', 'Trivandrum GPO'),
+		('695002', 'Kerala', 'Thiruvananthapuram', 'Kowdiar'),
+		('695003', 'Kerala', 'Thiruvananthapuram', 'Vazhuthacaud'),
+		('695004', 'Kerala', 'Thiruvananthapuram', 'Pattom'),
+		('695005', 'Kerala', 'Thiruvananthapuram', 'Ulloor'),
+		('452001', 'Madhya Pradesh', 'Indore', 'Indore GPO'),
+		('452002', 'Madhya Pradesh', 'Indore', 'Rajwada'),
+		('452003', 'Madhya Pradesh', 'Indore', 'Vijay Nagar'),
+		('452004', 'Madhya Pradesh', 'Indore', 'Palasia'),
+		('452005', 'Madhya Pradesh', 'Indore', 'Mhow'),
+		('462001', 'Madhya Pradesh', 'Bhopal', 'Bhopal GPO'),
+		('462002', 'Madhya Pradesh', 'Bhopal', 'Arera Colony'),
+		('462003', 'Madhya Pradesh', 'Bhopal', 'MP Nagar'),
+		('462004', 'Madhya Pradesh', 'Bhopal', 'Kolar Road'),
+		('462005', 'Madhya Pradesh', 'Bhopal', 'BHEL'),
+		('400005', 'Maharashtra', 'Mumbai', 'Malabar Hill'),
+		('400014', 'Maharashtra', 'Mumbai', 'Dadar'),
+		('400064', 'Maharashtra', 'Mumbai', 'Malad'),
+		('400092', 'Maharashtra', 'Mumbai', 'Kandivali'),
+		('400001', 'Maharashtra', 'Mumbai', 'Fort'),
+		('400002', 'Maharashtra', 'Mumbai', 'Kalbadevi'),
+		('400003', 'Maharashtra', 'Mumbai', 'Mandvi'),
+		('400004', 'Maharashtra', 'Mumbai', 'Girgaon'),
+		('302001', 'Rajasthan', 'Jaipur', 'Jaipur GPO'),
+		('302002', 'Rajasthan', 'Jaipur', 'Amer Road'),
+		('302003', 'Rajasthan', 'Jaipur', 'Jhotwara'),
+		('302004', 'Rajasthan', 'Jaipur', 'Malviya Nagar'),
+		('302005', 'Rajasthan', 'Jaipur', 'Vaishali Nagar'),
+		('313001', 'Rajasthan', 'Udaipur', 'Udaipur City'),
+		('313002', 'Rajasthan', 'Udaipur', 'Hiran Magri'),
+		('313003', 'Rajasthan', 'Udaipur', 'Fatehpura'),
+		('313004', 'Rajasthan', 'Udaipur', 'Bhopalpura'),
+		('313005', 'Rajasthan', 'Udaipur', 'Pratap Nagar'),
+		('342001', 'Rajasthan', 'Jodhpur', 'Jodhpur City'),
+		('342002', 'Rajasthan', 'Jodhpur', 'Ratanada'),
+		('342003', 'Rajasthan', 'Jodhpur', 'Sardarpura'),
+		('342004', 'Rajasthan', 'Jodhpur', 'Shastri Nagar'),
+		('342005', 'Rajasthan', 'Jodhpur', 'Pal Road'),
+		('600001', 'Tamil Nadu', 'Chennai', 'Parrys Corner'),
+		('600002', 'Tamil Nadu', 'Chennai', 'Anna Salai'),
+		('600003', 'Tamil Nadu', 'Chennai', 'Park Town'),
+		('600004', 'Tamil Nadu', 'Chennai', 'Mylapore'),
+		('600005', 'Tamil Nadu', 'Chennai', 'Royapettah'),
+		('500001', 'Telangana', 'Hyderabad', 'Abids'),
+		('500002', 'Telangana', 'Hyderabad', 'Koti'),
+		('500003', 'Telangana', 'Hyderabad', 'Secunderabad'),
+		('500004', 'Telangana', 'Hyderabad', 'Banjara Hills'),
+		('500005', 'Telangana', 'Hyderabad', 'Charminar'),
+		('201001', 'Uttar Pradesh', 'Ghaziabad', 'Ghaziabad City'),
+		('201002', 'Uttar Pradesh', 'Ghaziabad', 'Loni'),
+		('201003', 'Uttar Pradesh', 'Ghaziabad', 'Sahibabad'),
+		('201004', 'Uttar Pradesh', 'Ghaziabad', 'Vaishali'),
+		('201005', 'Uttar Pradesh', 'Ghaziabad', 'Indirapuram'),
+		('700001', 'West Bengal', 'Kolkata', 'B.B.D. Bagh'),
+		('700002', 'West Bengal', 'Kolkata', 'Cossipore'),
+		('700003', 'West Bengal', 'Kolkata', 'Shyambazar'),
+		('700004', 'West Bengal', 'Kolkata', 'Bhawanipore'),
+		('700005', 'West Bengal', 'Kolkata', 'Kalighat');
+
+INSERT INTO address(addressline, pincode)
+ VALUES	('Laxmi Nagar', '362015'),
+ 		('Gandhi Chowk', '396427'),
+		('Shastri Street', '380009'),
+		('Station Road', '380015'),
+		('Azad Nagar', '360001'),
+		('College Road', '360004'),
+		('Market Street', '110092'),
+		('Nehru Street', '110001'),
+		('Prabhas Patan Rd', '110002'),
+		('Bazar Road', '110003'),
+		('Bus Stand Road', '110004'),
+		('Diu Fort Road', '110005'),
+		('Bunder Chowk', '395003'),
+		('Wanakbara Road', '395007'),
+		('Devka Beach Rd', '396445'),
+		('Dabhel Main Road', '396445'),
+		('Dholar Street', '396427'),
+		('Rly Station Road', '380009'),
+		('Mumbai Main Rd', '392130'),
+		('Atgam Street', '122001'),
+		('Ahwa Bypass', '122002'),
+		('Pimpari Road', '362015'),
+		('Subir Main Rd', '360001'),
+		('Amreli Cross Rd', '360004'),
+		('Vadiya Chowk', '390001'),
+		('Babra Circle', '382007'),
+		('Lathi Gate Rd', '382007'),
+		('Liliya Mandir St', '382010'),
+		('Bharuch Main Rd', '380001'),
+		('Adol Street', '380015'),
+		('Advala Main Rd', '390001'),
+		('Akod Bazaar', '370201'),
+		('Laxmi Nagar', '400005'),
+		('Gandhi Chowk', '400014'),
+		('Shastri Street', '400064'),
+		('Azad Nagar', '380015'),
+		('College Road', '390001'),
+		('Market Street', '370201'),
+		('Nehru Street', '370201'),
+		('Bazar Road', '396580'),
+		('Near Primary School', '395003'),
+		('Shree Krishna Farm', '313004'),
+		('Valia Road', '380009'),
+		('Near ST Bus Depot', '396001'),
+		('Hanuman Temple Road', '380009'),
+		('Chikuwadi Circle', '360001'),
+		('Patelwadi Junction', '395007'),
+		('Zari Causeway', '362001'),
+		('Vankal Main Road', '360004'),
+		('Dediapada Circle', '390001'),
+		('Junagadh Talavadi', '395007'),
+		('GEB Road, Killa Pardi', '394716'),
+		('Opp. Water Tank, Ankleshwar', '392001'),
+		('Navsari Farm Zone', '392110'),
+		('Near Science College', '394716'),
+		('Ram Mandir Marg', '392130'),
+		('Yoginagar, Valsad', '365430'),
+		('Farm No. 45, Gandhi Chowk', '396427'),
+		('Plot 12, Shastri Street', '380009'),
+		('Krishna Farm, Azad Nagar', '360001'),
+		('Green Fields, College Road', '360004'),
+		('Vijay Farm, Vanthali Road', '362015'),
+		('Mehta Farms, Chikhli', '396445'),
+		('Vora Orchards, Station Road', '380015'),
+		('Bhatt Farms, Sayajigunj', '390001'),
+		('Gandhi Fields, Gandhidham', '370201'),
+		('Thakkar Farm, Gandhinagar', '382007'),
+		('Shop 5, Bunder Chowk', '395003'),
+		('Plot 8, Wanakbara Road', '395007'),
+		('Shop 12, Devka Beach Rd', '396445'),
+		('G-3, Dholar Street', '396427'),
+		('H-7, Rly Station Road', '380009'),
+		('Transport Nagar, Vanthali', '362015'),
+		('Plot 9, Shastri Street', '380009'),
+		('Godown 3, Sayajigunj', '390001'),
+		('Transport Yard, Gandhidham', '370201'),
+		('Depot 5, Gandhinagar', '382007'),
+		('Reliance Mart, Fort', '400001'),
+		('Big Bazaar, Dadar', '400014'),
+		('More Store, Malad', '400064'),
+		('Apna Bazar, Connaught Place', '110001'),
+		('Metro Cash & Carry, Darya Ganj', '110002');
+
+INSERT INTO registers(userid,firstname,middlename,lastname,category,email,pincode,addressline,password,contactno) 
+VALUES('F2400015', 'Rajesh', 'Mahesh', 'Patel', 'F', 'rajesh.patel@agri.com', '396427', 'Farm No. 45, Gandhi Chowk', 'rajesh123', '9876543215'), 
+	('F2400016', 'Suresh', 'Kamlesh', 'Shah', 'F', 'suresh.shah@agri.com', '380009', 'Plot 12, Shastri Street', 'suresh456', '9876543216'),
+	('F2400017', 'Mahesh', 'Rajiv', 'Desai', 'F', 'mahesh.desai@agri.com', '360001', 'Krishna Farm, Azad Nagar', 'mahesh789', '9876543217'),
+	('F2400018', 'Dinesh', 'Dhyey', 'Joshi', 'F', 'dinesh.joshi@agri.com', '360004', 'Green Fields, College Road', 'dinesh000', '9876543218'),
+	('F2400019', 'Vijay', 'Deepak', 'Rana', 'F', 'vijay.rana@agri.com', '362015', 'Vijay Farm, Vanthali Road', 'vijay111', '9876543219'),
+	('F2400020', 'Prakash', 'Hardik', 'Mehta', 'F', 'prakash.mehta@agri.com', '396445', 'Mehta Farms, Chikhli', 'prakash222', '9876543220'),
+	('F2400021', 'Ramesh', 'Mahendra', 'Vora', 'F', 'ramesh.vora@agri.com', '380015', 'Vora Orchards, Station Road', 'ramesh333', '9876543221'),
+	('F2400022', 'Sanjay', 'Nihar', 'Bhatt', 'F', 'sanjay.bhatt@agri.com', '390001', 'Bhatt Farms, Sayajigunj', 'sanjay444', '9876543222'),
+	('F2400023', 'Arun', 'Harsh', 'Gandhi', 'F', 'arun.gandhi@agri.com', '370201', 'Gandhi Fields, Gandhidham', 'arun555', '9876543223'),
+	('F2400024', 'Manoj', 'Jenish', 'Thakkar', 'F', 'manoj.thakkar@agri.com', '382007', 'Thakkar Farm, Gandhinagar', 'manoj666', '9876543224'),
+	('D2400010', 'Rahul', 'Apurv', 'Gandhi', 'D', 'agri.supplies@dealer.com', '395003', 'Shop 5, Bunder Chowk', 'agri123', '9876543230'),
+	('D2400011', 'Krishi', 'Jevik', 'Mehta', 'D', 'krishi.solutions@dealer.com', '395007', 'Plot 8, Wanakbara Road', 'krishi456', '9876543231'),
+	('F2400003', 'Vishal', 'Rajesh', 'Desai', 'F', 'vishal.d@gmail.com', '380009', 'Shastri Street', 'pass123', '9988776655'),
+	('F2400004', 'Asha', 'Kiran', 'Joshi', 'F', 'asha.joshi@gmail.com', '380015', 'Station Road', 'asha456', '9876567890'),
+	('F2400005', 'Chetan', 'Laxman', 'Rana', 'F', 'chetan.r@rediffmail.com', '360001', 'Azad Nagar', 'c@rD2024', '9845123489'),
+	('F2400006', 'Neha', 'Sanjay', 'Vora', 'F', 'neha.vora@hotmail.com', '360004', 'College Road', 'neh@789', '9876001122'),
+	('F2400007', 'Ramesh', 'Dinesh', 'Shah', 'F', 'ramesh.s@xyz.com', '110092', 'Market Street', 'rs1234', '9000012345'),
+	('F2400008', 'Swati', 'Vinod', 'Kapadia', 'F', 'swati.kapadia@gmail.com', '110001', 'Nehru Street', 's@password', '9321009988'),
+	('F2400009', 'Karan', 'Jay', 'Bhatt', 'F', 'karan.bhatt@live.com', '110002', 'Prabhas Patan Rd', 'kb4567', '9977553311'),
+	('F2400010', 'Deepa', 'Raju', 'Gandhi', 'F', 'deepa.g@abc.com', '110003', 'Bazar Road', 'deepa99', '9090909090'),
+	('F2400011', 'Pooja', 'Mahesh', 'Trivedi', 'F', 'pooja.trivedi@gmail.com', '110004', 'Bus Stand Road', 'pT@2025', '9819981998'),
+	('F2400012', 'Hemant', 'Ram', 'Mehta', 'F', 'hemant.mehta@ymail.com', '110005', 'Diu Fort Road', 'h@pass123', '9922445599'),
+	('D2400001', 'Bhavna', 'Suresh', 'Parmar', 'D', 'bhavna.p@gmail.com', '395003', 'Bunder Chowk', 'bhavna88', '9810001100'),
+	('D2400002', 'Yash', 'Kirit', 'Modi', 'D', 'yash.modi@outlook.com', '395007', 'Wanakbara Road', 'yM2024', '9320011223'),
+	('D2400003', 'Alpa', 'Naresh', 'Shah', 'D', 'alpa.shah@yahoo.com', '396445', 'Devka Beach Rd', 'alpha321', '9988998877'),
+	('D2400004', 'Harsh', 'Milan', 'Shah', 'D', 'harsh.s@gmail.com', '396445', 'Dabhel Main Road', 'hsh456', '9001234567'),
+	('D2400005', 'Sneha', 'Viral', 'Patel', 'D', 'sneha.patel@gmail.com', '396427', 'Dholar Street', 'sneha77', '9021010101'),
+	('D2400006', 'Parth', 'Manoj', 'Solanki', 'D', 'parth.solanki@gmail.com', '380009', 'Rly Station Road', 'p123sol', '9811122233'),
+	('D2400007', 'Komal', 'Ramesh', 'Thakkar', 'D', 'komal.t@gmail.com', '392130', 'Mumbai Main Rd', 'komal77', '9102020202'),
+	('D2400008', 'Jinal', 'Chirag', 'Mehta', 'D', 'jinal.mehta@gmail.com', '122001', 'Atgam Street', 'jMehta22', '9988223344'),
+	('D2400009', 'Amit', 'Paresh', 'Raval', 'D', 'amit.raval@gmail.com', '122002', 'Ahwa Bypass', 'amitpass', '9234567890'),
+	('T2400001', 'Kajal', 'Ranjit', 'Gohil', 'T', 'kajal.g@gmail.com', '362015', 'Pimpari Road', 'k@1234', '9877000099'),
+	('T2400002', 'Tarun', 'Nirav', 'Soni', 'T', 'tarun.soni@gmail.com', '360001', 'Subir Main Rd', 'tarunTS', '9911887788'),
+	('T2400003', 'Hina', 'Arvind', 'Rana', 'T', 'hina.rana@gmail.com', '360004', 'Amreli Cross Rd', 'hinar123', '9099988776'),
+	('T2400004', 'Nikunj', 'Dilip', 'Thakkar', 'T', 'nikunj.t@gmail.com', '390001', 'Vadiya Chowk', 'nikk2024', '9900112233'),
+	('T2400005', 'Mansi', 'Raj', 'Joshi', 'T', 'mansi.j@ymail.com', '382007', 'Babra Circle', 'mJoshi78', '9833445566'),
+	('T2400006', 'Aayush', 'Bhavin', 'Shah', 'T', 'aayush.shah@gmail.com', '382007', 'Lathi Gate Rd', 'aayu789', '9944556677'),
+	('B2400001', 'Rina', 'Rakesh', 'Vyas', 'B', 'rina.vyas@gmail.com', '382010', 'Liliya Mandir St', 'rvpass22', '9900221144'),
+	('B2400002', 'Viraj', 'Prakash', 'Patel', 'B', 'viraj.p@gmail.com', '380001', 'Bharuch Main Rd', 'vp1234', '9988776655'),
+	('B2400003', 'Isha', 'Shyam', 'Kapadia', 'B', 'isha.kapadia@gmail.com', '380015', 'Adol Street', 'ishaPwd', '9822001100'),
+	('B2400004', 'Jay', 'Chirag', 'Dave', 'B', 'jay.dave@gmail.com', '390001', 'Advala Main Rd', 'jayF2025', '9811223344'),
+	('B2400005', 'Disha', 'Ajay', 'Thakkar', 'B', 'disha.thakkar@outlook.com', '370201', 'Akod Bazaar', 'disha789', '9977665544'),
+	('B2400006', 'Nikhil', 'Mohan', 'Rana', 'B', 'nikhil.rana@gmail.com', '400005', 'Laxmi Nagar', 'nRana44', '9855123478'),
+	('B2400007', 'Anjali', 'Bhavesh', 'Shah', 'B', 'anjali.shah@gmail.com', '400014', 'Gandhi Chowk', 'aS45678', '9844441111'),
+	('B2400008', 'Darshan', 'Hitesh', 'Mehta', 'B', 'darshan.mehta@gmail.com', '400064', 'Shastri Street', 'darsh22', '9988664422'),
+	('T2400007', 'Kavya', 'Bharat', 'Shah', 'T', 'kavya.shah@xyz.com', '380015', 'Azad Nagar', 'kavyash123', '9833111122'),
+	('T2400008', 'Rupal', 'Ashok', 'Patel', 'T', 'rupal.patel@gmail.com', '390001', 'College Road', 'rup321', '9944559988'),
+	('T2400009', 'Aarav', 'Sanjay', 'Joshi', 'T', 'aarav.joshi@live.com', '370201', 'Market Street', 'aar@123', '9098989898'),
+	('F2400013', 'Tina', 'Harish', 'Trivedi', 'F', 'tina.trivedi@gmail.com', '370201', 'Nehru Street', 'tinaTi', '9321098765'),
+	('F2400014', 'Magan', 'Ramesh', 'Patel', 'F', 'ronak.modi@gmail.com', '396580', 'Bazar Road', 'rm99pass', '9313400529'),
+	('B2400009', 'Magan', 'Ramesh', 'Patel', 'B', 'ronak.modi@gmail.com', '396580', 'Bazar Road', 'rm99pass', '9313400529'),
+	('D2400012', 'Rajvi', 'Dhara', 'Thakkar', 'D', 'farm.mart@dealer.com', '396445', 'Shop 12, Devka Beach Rd', 'farm789', '9876543232'),
+	('D2400013', 'Parth', 'Parthiv', 'Gori', 'D', 'green.depot@dealer.com', '396427', 'G-3, Dholar Street', 'green000', '9876543233'),
+	('D2400014', 'Naitik', 'Pranav', 'Shah', 'D', 'harvest.services@dealer.com', '380009', 'H-7, Rly Station Road', 'harvest111', '9876543234'),
+	('T2400010', 'Nauman', 'Dhvani', 'Patel', 'T', 'gujarat.transport@t.com', '362015', 'Transport Nagar, Vanthali', 'guj123', '9876543240'),
+	('T2400011', 'Rajesh', 'Hari', 'Gadhe', 'T', 'rajesh.logistics@t.com', '380009', 'Plot 9, Shastri Street', 'raj456', '9876543241'),
+	('T2400012', 'Surya', 'Krishna', 'Katkoriya', 'T', 'surya.cargo@t.com', '390001', 'Godown 3, Sayajigunj', 'sur789', '9876543242'),
+	('T2400013', 'Mahindra', 'Raj', 'Desai', 'T', 'mahindra.trucking@t.com', '370201', 'Transport Yard, Gandhidham', 'mahi000', '9876543243'),
+	('T2400014', 'Bharat', 'Yash', 'Bhalara', 'T', 'bharat.express@t.com', '382007', 'Depot 5, Gandhinagar', 'bha111', '9876543244'),
+	('B2400010', 'Meet', 'Farzan', 'Mehta', 'B', 'reliance.fresh@buyer.com', '400001', 'Reliance Mart, Fort', 'rel123', '9876543250'),
+	('B2400011', 'Jainil', 'Mahir', 'Dhoni', 'B', 'big.bazaar@buyer.com', '400014', 'Big Bazaar, Dadar', 'big456', '9876543251'),
+	('B2400012', 'Dhruv', 'Harsh', 'Kohli', 'B', 'more.supermarket@buyer.com', '400064', 'More Store, Malad', 'more789', '9876543252'),
+	('B2400013', 'Janvi', 'Manish', 'Mehta', 'B', 'apna.bazar@buyer.com', '110001', 'Apna Bazar, Connaught Place', 'apna000', '9876543253'),
+	('B2400014', 'Ridhi', 'Parva', 'Desai', 'B', 'metro.wholesale@buyer.com', '110002', 'Metro Cash & Carry, Darya Ganj', 'metro111', '9876543254'),
+	('F2400002', 'Divyesh', 'Anil', 'Shah', 'F', 'meera.shah23@yahoo.com', '396427', 'Gandhi Chowk', 'm3era456', '9812312345'),
+	('F2400001', 'Raj', 'Bhavesh', 'Patel', 'F', 'raj.patel01@hotmail.com', '362015', 'Laxmi Nagar', 'r@j123', '9876543210');
+
+INSERT INTO farmer(farmerid) 
+	VALUES('F2400001'), 
+	('F2400002'),
+	('F2400003'),
+	('F2400004'),
+	('F2400005'),
+	('F2400006'),
+	('F2400007'),
+	('F2400008'),
+	('F2400009'),
+	('F2400010'),
+	('F2400011'),
+	('F2400012'),
+	('F2400013'),
+	('F2400014'),
+	('F2400015'),
+	('F2400016'),
+	('F2400017'),
+	('F2400018'),
+	('F2400019'),
+	('F2400020'),
+	('F2400021'),
+	('F2400022'),
+	('F2400023'),
+	('F2400024');
+
+INSERT INTO buyer(buyerid) 
+VALUES ('B2400001'), 
+	('B2400002'),
+	('B2400003'),
+	('B2400004'),
+	('B2400005'),
+	('B2400006'),
+	('B2400007'),
+	('B2400008'),
+	('B2400009'),
+	('B2400010'),
+	('B2400011'),
+	('B2400012'),
+	('B2400013'),
+	('B2400014');
+
+INSERT INTO TransportProvider(transportproviderid)
+VALUES
+	('T2400001'), 
+	('T2400002'),
+	('T2400003'),
+	('T2400004'),
+	('T2400005'),
+	('T2400006'),
+	('T2400007'),
+	('T2400008'),
+	('T2400009'),
+	('T2400010'),
+	('T2400011'),
+	('T2400012'),
+	('T2400013'),
+	('T2400014');
+
+INSERT INTO Dealer(dealerid) 
+VALUES('D2400001'),
+	('D2400002'),
+	('D2400003'),
+	('D2400004'),
+	('D2400005'),
+	('D2400006'),
+	('D2400007'),
+	('D2400008'),
+	('D2400009'),
+	('D2400010'),
+	('D2400011'),
+	('D2400012'),
+	('D2400013'),
+	('D2400014');
+
+INSERT INTO Item(itemid,itemname) 
+VALUES('I001', 'Urea') ,
+	('I002', 'DAP'),
+	('I003', 'NPK'),
+	('I004', 'Potash'),
+	('I005', 'Ammonium Sulfate'),
+	('I006', 'Glyphosate'),
+	('I007', 'Malathion'),
+	('I008', 'Neem Oil Spray'),
+	('I009', 'Carbaryl'),
+	('I010', 'Pendimethalin'),
+	('I011', 'Wheat Seeds'),
+	('I012', 'Rice Seeds'),
+	('I013', 'Tomato Seeds'),
+	('I014', 'Cotton Seeds'),
+	('I015', 'Mustard Seeds'),
+	('I016', 'Spade'),
+	('I017', 'Hoe'),
+	('I018', 'Sickle'),
+	('I019', 'Shovel'),
+	('I020', 'Sprayer'),
+	('I021', 'Tractor'),
+	('I022', 'Power Tiller'),
+	('I023', 'Harvester'),
+	('I024', 'Seeder'),
+	('I025', 'Irrigation Pump');
+
+INSERT INTO Crop(cropid,cropname) 
+VALUES('G001', 'Wheat'), 
+	('G002', 'Rice'),
+	('G003', 'Maize'),
+	('G004', 'Barley'),
+	('G005', 'Bajra'),
+	('G006', 'Jowar'),
+	('F001', 'Mango'),
+	('F002', 'Banana'),
+	('F003', 'Apple'),
+	('F004', 'Papaya'),
+	('F005', 'Pomgranate'),
+	('F006', 'Grapes'),
+	('F007', 'Guava'),
+	('F008', 'Watermelon'),
+	('P001', 'Moong'),
+	('P002', 'Urad'),
+	('P003', 'Chana'),
+	('P004', 'Masoor'),
+	('P005', 'Arhar'),
+	('P006', 'Rajma'),
+	('C001', 'Cotton'),
+	('C002', 'Sugarcane'),
+	('C003', 'Tobacco'),
+	('C004', 'Groundnut'),
+	('C005', 'Mustard'),
+	('C006', 'Soybean');
+
+INSERT INTO DisplayCrop(cropid,farmerid,weightperqty,qtyonsell,description,rate,pincode,addressline) 
+VALUES('G001', 'F2400001', '10.00', '500', 'A staple cereal grain used as a key ingredient in flour for bread, pasta, and baked goods.', '25', '395003', 'Near Primary School'), 
+	('G002', 'F2400002', '10.00', '400', 'A major food crop grown in flooded fields, providing a staple for over half the worlds population.', '30.5', '313004', 'Shree Krishna Farm'),
+	('G003', 'F2400003', '10.00', '200', 'Commonly known as corn, a cereal plant that provides food and raw material for a variety of industries.', '40', '380009', 'Valia Road'),
+	('G004', 'F2400004', '10.00', '300', 'A cereal grain used in food, animal feed, and as a key ingredient in beer production.', '55', '396001', 'Near ST Bus Depot'),
+	('G005', 'F2400005', '15.00', '250', 'A drought-tolerant grain used in many traditional dishes, popular in parts of India and Africa.', '60', '380009', 'Hanuman Temple Road'),
+	('G006', 'F2400006', '20.00', '303', 'A nutritious drought-tolerant crop widely used as food, animal feed, and in biofuel production.', '45.5', '360001', 'Chikuwadi Circle'),
+	('F005', 'F2400011', '50.00', '440', 'A nutrient-dense fruit known for its juicy, red seeds and used in cooking, juices, and snacks.', '18', '395007', 'Patelwadi Junction'),
+	('F001', 'F2400007', '20.00', '350', 'A tropical fruit loved for its sweet, juicy flavor, widely cultivated in India, Mexico, and Southeast Asia.', '35', '362001', 'Zari Causeway'),
+	('F002', 'F2400008', '25.00', '440', 'A popular fruit known for its high potassium content, often eaten fresh or used in desserts.', '28', '360004', 'Vankal Main Road'),
+	('F003', 'F2400009', '50.00', '600', 'A fruit known for its sweet or tart flavor, commonly consumed fresh or in various processed forms like juice and cider.', '26.75', '390001', 'Dediapada Circle'),
+	('F004', 'F2400010', '10.00', '700', 'A tropical fruit rich in vitamins, often eaten fresh or used in salads, juices, and smoothies.', '22', '395007', 'Junagadh Talavadi'),
+	('F006', 'F2400012', '15.00', '270', 'A small, sweet fruit that grows in clusters, commonly eaten fresh or dried as raisins.', '12.5', '394716', 'GEB Road, Killa Pardi'),
+	('P001', 'F2400014', '15.00', '500', 'A small, green pulse used in a variety of cuisines, often in soups, curries, and salads.', '22', '392001', 'Opp. Water Tank, Ankleshwar'),
+	('P002', 'F2400014', '25.00', '600', 'A legume commonly used in Indian cooking, often ground into flour for making breads and snacks.', '19.5', '392110', 'Navsari Farm Zone'),
+	('P003', 'F2400001', '26.00', '400', 'A pulse widely used in cooking, particularly in Indian dishes, for its nutty flavor and high protein content.', '15', '394716', 'Near Science College'),
+	('P004', 'F2400002', '20.00', '500', 'A common pulse used in soups, dals, and stews, rich in protein and fiber.', '10', '392130', 'Ram Mandir Marg'),
+	('P005', 'F2400003', '35.00', '600', 'A legume popular in Indian cooking, often used in dals, known for its rich flavor and high protein content.', '25.5', '365430', 'Yoginagar, Valsad'),
+	('P006', 'F2400003', '15.00', '700', 'A versatile legume, often used in stews and curries, known for its rich, hearty taste.', '50', '400014', 'Gandhi Chowk');
+
+INSERT INTO DisplayItem(dealerid,itemid,weightperqty,qtyonsell,description,rate,pincode,addressline) 
+VALUES('D2400008', 'I003', '52.00', '550', 'Premium NPK fertilizer', '265', '392130', 'Mumbai Main Rd'), 
+	('D2400009', 'I004', '55.00', '800', 'Quality Potash fertilizer', '105', '392130', 'Mumbai Main Rd'),
+	('D2400004', 'I005', '50.00', '410', 'Reliable Ammonium Sulfate fertilizer', '85', '396445', 'Dabhel Main Road'),
+	('D2400001', 'I006', '50.00', '600', 'Effective Glyphosate herbicide', '215', '395003', 'Bunder Chowk'),
+	('D2400004', 'I007', '50.00', '303', 'Malathion insecticide with high efficacy ', '175', '396445', 'Dabhel Main Road'),
+	('D2400004', 'I008', '50.00', '400', 'Organic Neem Oil Spray', '125', '396445', 'Dabhel Main Road'),
+	('D2400002', 'I009', '50.00', '500', 'Carbaryl pesticide', '140', '395007', 'Wanakbara Road'),
+	('D2400002', 'I010', '50.00', '750', 'Pendimethalin herbicide', '145', '395007', 'Wanakbara Road'),
+	('D2400002', 'I012', '5.00', '280', 'Premium Rice Seeds', '205', '395007', 'Wanakbara Road'),
+	('D2400005', 'I013', '5.00', '300', 'Hybrid Tomato Seeds', '225', '396427', 'Dholar Street'),
+	('D2400003', 'I014', '5.00', '400', 'High quality Cotton Seeds', '290', '396445', 'Devka Beach Rd'),
+	('D2400007', 'I015', '5.00', '500', 'Organic Mustard Seeds', '165', '392130', 'Mumbai Main Rd'),
+	('D2400005', 'I016', '3.00', '400', 'Durable Spade tool', '240', '396427', 'Dholar Street'),
+	('D2400002', 'I017', '2.50', '400', 'Ergonomic Hoe', '55', '395007', 'Wanakbara Road'),
+	('D2400008', 'I018', '1.50', '605', 'Sharp Sickle', '155', '392130', 'Mumbai Main Rd'),
+	('D2400008', 'I019', '3.50', '550', 'Sturdy Shovel', '250', '392130', 'Mumbai Main Rd'),
+	('D2400001', 'I020', '4.00', '450', 'Efficient Sprayer', '285', '395003', 'Bunder Chowk'),
+	('D2400008', 'I021', '1500.00', '500', 'High horsepower Tractor', '165', '392130', 'Mumbai Main Rd'),
+	('D2400001', 'I023', '1200.00', '300', 'Modern Harvester', '95', '395003', 'Bunder Chowk'),
+	('D2400009', 'I024', '200.00', '300', 'High performance Seeder', '175', '392130', 'Mumbai Main Rd'),
+	('D2400001', 'I001', '50.00', '500', 'High quality Urea fertilizer', '25.5', '395003', 'Bunder Chowk'),
+	('D2400002', 'I002', '48.00', '400', 'Effective DAP fertilizer', '30', '395007', 'Wanakbara Road'),
+	('D2400003', 'I003', '52.00', '600', 'Premium NPK fertilizer', '28.75', '396445', 'Devka Beach Rd'),
+	('D2400004', 'I004', '55.00', '500', 'Quality Potash fertilizer', '26', '396445', 'Dabhel Main Road'),
+	('D2400005', 'I005', '50.00', '400', 'Reliable Ammonium Sulfate fertilizer', '24', '396427', 'Dholar Street'),
+	('D2400006', 'I006', '50.00', '600', 'Effective Glyphosate herbicide', '40', '380009', 'Rly Station Road'),
+	('D2400007', 'I007', '50.00', '300', 'Malathion insecticide with high efficacy ', '35', '392130', 'Mumbai Main Rd'),
+	('D2400008', 'I008', '50.00', '400', 'Use Organic Neem Oil Spray', '32', '122001', 'Atgam Street'),
+	('D2400009', 'I009', '50.00', '500', 'Carbaryl pesticide ', '29.5', '122002', 'Ahwa Bypass'),
+	('D2400001', 'I010', '50.00', '600', 'Pendimethalin herbicide', '33', '395003', 'Bunder Chowk'),
+	('D2400002', 'I011', '5.00', '300', 'High germination Wheat Seeds', '15', '395007', 'Wanakbara Road'),
+	('D2400003', 'I012', '5.00', '300', 'Premium Rice Seeds', '14.5', '396445', 'Devka Beach Rd'),
+	('D2400004', 'I013', '5.00', '400', 'Hybrid Tomato Seeds', '16.75', '396445', 'Dabhel Main Road'),
+	('D2400005', 'I014', '5.00', '300', 'High quality Cotton Seeds', '18', '396427', 'Dholar Street'),
+	('D2400006', 'I015', '5.00', '500', 'Organic Mustard Seeds', '17.5', '380009', 'Rly Station Road'),
+	('D2400007', 'I016', '3.00', '600', 'Durable Spade tool', '120', '392130', 'Mumbai Main Rd'),
+	('D2400008', 'I017', '2.50', '400', 'Ergonomic Hoe', '95', '122001', 'Atgam Street'),
+	('D2400009', 'I018', '1.50', '600', 'Sharp Sickle', '70', '122002', 'Ahwa Bypass'),
+	('D2400001', 'I019', '3.50', '550', 'Sturdy Shovel', '110', '395003', 'Bunder Chowk'),
+	('D2400002', 'I020', '4.00', '450', 'Efficient Sprayer', '150', '395007', 'Wanakbara Road'),
+	('D2400003', 'I021', '1500.00', '500', 'High horsepower Tractor', '75000', '396445', 'Devka Beach Rd'),
+	('D2400004', 'I022', '800.00', '700', 'Efficient Power Tiller', '45000', '396445', 'Dabhel Main Road'),
+	('D2400005', 'I023', '1200.00', '390', 'Modern Harvester', '120000', '396427', 'Dholar Street'),
+	('D2400006', 'I024', '200.00', '400', 'High performance Seeder', '30000', '380009', 'Rly Station Road'),
+	('D2400007', 'I025', '500.00', '600', 'Reliable Irrigation Pump', '55000', '392130', 'Mumbai Main Rd'),
+	('D2400005', 'I001', '50.00', '400', 'High quality Urea fertilizer', '55', '396427', 'Dholar Street'),
+	('D2400001', 'I025', '500.00', '800', 'Reliable Irrigation Pump', '180', '395003', 'Bunder Chowk'),
+	('D2400009', 'I011', '5.00', '290', 'High germination Wheat Seeds', '50', '392130', 'Mumbai Main Rd');
+
+INSERT INTO FarmerSupplyTransaction VALUES ('FTXN00022', 'Accepted', '1520', '4', '3', '170', 'D2400001', 'I001', 'F2400011', '85', '2024-01-20', '2024-01-24', '395003', 'Bunder Chowk', 'T2400001', '2024-01-24');
+UPDATE displayitem set qtyonsell=qtyonsell-85 where dealerid='D2400001' AND itemid='I001';
+
+INSERT INTO FarmerSupplyTransaction  VALUES ('FTXN00023', 'Pending', '1875', '4', '4', '140', 'D2400006', 'I006', 'F2400014', '60', '2024-02-15', '2024-02-19', '380009', 'Rly Station Road', 'T2400005', '2024-02-19');
+UPDATE displayitem set qtyonsell=qtyonsell-60 where dealerid='D2400006' AND itemid='I006';
+
+INSERT INTO FarmerSupplyTransaction  VALUES ('FTXN00024', 'Delivered', '1720', '4', '3', '120', 'D2400005', 'I005', 'F2400012', '105', '2024-12-01', '2024-12-05', '396427', 'Dholar Street', 'T2400003', '2024-12-05');
+UPDATE displayitem set qtyonsell=qtyonsell-105 where dealerid='D2400005' AND itemid='I005';
+
+
+INSERT INTO FarmerSupplyTransaction VALUES ('FTXN00025', 'Pending', '820', '5', '4', '108', 'D2400002', 'I020', 'F2400009', '35', '2024-08-15', '2024-08-19', '395007', 'Wanakbara Road', 'T2400006', '2024-08-20');
+UPDATE displayitem set qtyonsell=qtyonsell-35 where dealerid='D2400002' AND itemid='I020';
+
+
+INSERT INTO FarmerSupplyTransaction  VALUES('FTXN00001', 'Delivered', '303', '5', '4', '30', 'D2400009', 'I011', 'F2400005', '10', '2024-03-20', '2024-03-25', '392130', 'Mumbai Main Rd', 'T2400005', '2024-03-24');
+UPDATE displayitem set qtyonsell=qtyonsell-10 where dealerid='D2400009' AND itemid='I011';
+
+
+INSERT INTO FarmerSupplyTransaction  VALUES ('FTXN00026', 'Accepted', '960', '4', '3', '95', 'D2400004', 'I004', 'F2400013', '65', '2024-09-15', '2024-09-19', '396445', 'Dabhel Main Road', 'T2400007', '2024-09-18');
+UPDATE displayitem set qtyonsell=qtyonsell-65 where dealerid='D2400004' AND itemid='I004';
+
+
+INSERT INTO FarmerSupplyTransaction  VALUES ('FTXN00002', 'Accepted', '1000', '3', '4', '200', 'D2400007', 'I016', 'F2400007', '30', '2024-03-25', '2024-03-29', '395003', 'Bunder Chowk', 'T2400007', null);
+UPDATE displayitem set qtyonsell=qtyonsell-30 where dealerid='D2400007' AND itemid='I016';
+
+hi
+INSERT INTO FarmerSupplyTransaction  VALUES ('FTXN00003', 'Accepted', '3000', '2', '5', '300', 'D2400003', 'I012', 'F2400009', '25', '2024-04-12', '2024-04-14', '380009', 'Shastri Street', 'T2400008', null);
+UPDATE displayitem set qtyonsell=qtyonsell-25 where dealerid='D2400003' AND itemid='I012';
+
+
+INSERT INTO FarmerSupplyTransaction  VALUES ('FTXN00004', 'Delivered', '4512', '4', '4', '100', 'D2400001', 'I001', 'F2400014', '33', '2024-03-29', '2024-04-06', '110001', 'Nehru Street', 'T2400001', '2024-04-06');
+UPDATE displayitem set qtyonsell=qtyonsell-33 where dealerid='D2400001' AND itemid='I001';
+
+
+INSERT INTO FarmerSupplyTransaction  VALUES ('FTXN00005', 'Pending', '1500', null, null, '102', 'D2400005', 'I023', 'F2400014', '1', '2024-03-26', '2024-04-06', '395007', 'Wanakbara Road', null, null);
+UPDATE displayitem set qtyonsell=qtyonsell-1 where dealerid='D2400005' AND itemid='I023';
+
+
+INSERT INTO FarmerSupplyTransaction  VALUES ('FTXN00006', 'Accepted', '500', '3', '2', '40', 'D2400004', 'I013', 'F2400003', '120', '2024-03-19', '2024-03-23', '362015', 'Laxmi Nagar', 'T2400002', '2024-03-23');
+UPDATE displayitem set qtyonsell=qtyonsell-120 where dealerid='D2400004' AND itemid='I013';
+
+
+INSERT INTO FarmerSupplyTransaction  VALUES ('FTXN00007', 'Delivered', '750', '4', '4', '75', 'D2400002', 'I012', 'F2400014', '110', '2024-02-10', '2024-02-13', '360001', 'Azad Nagar', 'T2400008', '2024-02-13');
+UPDATE displayitem set qtyonsell=qtyonsell-110 where dealerid='D2400002' AND itemid='I012';
+
+
+INSERT INTO FarmerSupplyTransaction  VALUES ('FTXN00008', 'Pending', '350', '3', '3', '35', 'D2400009', 'I011', 'F2400003', '130', '2024-07-11', '2024-07-13', '382007', 'Babra Circle', 'T2400005', '2024-07-13');
+UPDATE displayitem set qtyonsell=qtyonsell-130 where dealerid='D2400009' AND itemid='I011';
+
+
+INSERT INTO FarmerSupplyTransaction  VALUES ('FTXN00009', 'Accepted', '950', '5', '4', '160', 'D2400004', 'I007', 'F2400012', '80', '2024-08-22', '2024-08-24', '400014', 'Gandhi Chowk', 'T2400008', '2024-08-24');
+UPDATE displayitem set qtyonsell=qtyonsell-80 where dealerid='D2400004' AND itemid='I007';
+
+
+INSERT INTO FarmerSupplyTransaction  VALUES ('FTXN00010', 'Pending', '1350', '4', '5', '35', 'D2400005', 'I005', 'F2400003', '95', '2024-09-12', '2024-09-16', '390001', 'College Road', 'T2400002', '2024-09-15');
+UPDATE displayitem set qtyonsell=qtyonsell-95 where dealerid='D2400005' AND itemid='I005';
+
+
+INSERT INTO FarmerSupplyTransaction  VALUES ('FTXN00011', 'Delivered', '2540', '4', '4', '120', 'D2400006', 'I015', 'F2400007', '150', '2024-11-20', '2024-11-25', '380015', 'Adol Street', 'T2400006', '2024-11-25');
+UPDATE displayitem set qtyonsell=qtyonsell-150 where dealerid='D2400006' AND itemid='I015';
+
+
+INSERT INTO FarmerSupplyTransaction  VALUES ('FTXN00012', 'Pending', '1800', '4', '4', '60', 'D2400002', 'I020', 'F2400011', '30', '2024-10-21', '2024-10-25', '392130', 'Mumbai Main Rd', 'T2400009', '2024-10-24');
+UPDATE displayitem set qtyonsell=qtyonsell-30 where dealerid='D2400002' AND itemid='I020';
+
+
+INSERT INTO FarmerSupplyTransaction  VALUES ('FTXN00013', 'Accepted', '1900', '5', '4', '135', 'D2400007', 'I025', 'F2400007', '7', '2024-12-15', '2024-12-19', '110004', 'Bus Stand Road', 'T2400001', '2024-12-19');
+UPDATE displayitem set qtyonsell=qtyonsell-7 where dealerid='D2400007' AND itemid='I025';
+
+
+INSERT INTO FarmerSupplyTransaction  VALUES ('FTXN00014', 'Pending', '2100', '4', '4', '180', 'D2400008', 'I003', 'F2400004', '75', '2024-08-23', '2024-08-27', '380009', 'Shastri Street', 'T2400005', '2024-08-27');
+UPDATE displayitem set qtyonsell=qtyonsell-75 where dealerid='D2400008' AND itemid='I003';
+
+
+INSERT INTO FarmerSupplyTransaction  VALUES ('FTXN00015', 'Accepted', '2350', '5', '4', '210', 'D2400001', 'I006', 'F2400015', '60', '2024-01-15', '2024-01-21', '395007', 'Plot 8, Wanakbara Road', 'T2400005', '2024-01-21');
+UPDATE displayitem set qtyonsell=qtyonsell-60 where dealerid='D2400001' AND itemid='I006';
+
+
+INSERT INTO FarmerSupplyTransaction  VALUES ('FTXN00017', 'Pending', '1360', '4', '4', '85', 'D2400001', 'I001', 'F2400006', '90', '2024-04-05', '2024-04-09', '395003', 'Bunder Chowk', 'T2400008', '2024-04-09');
+UPDATE displayitem set qtyonsell=qtyonsell-90 where dealerid='D2400001' AND itemid='I001';
+
+
+INSERT INTO FarmerSupplyTransaction  VALUES ('FTXN00018', 'Delivered', '1780', '5', '4', '80', 'D2400008', 'I017', 'F2400002', '30', '2024-02-14', '2024-02-18', '396427', 'Gandhi Chowk', 'T2400007', '2024-02-17');
+UPDATE displayitem set qtyonsell=qtyonsell-30 where dealerid='D2400008' AND itemid='I017';
+
+
+INSERT INTO FarmerSupplyTransaction  VALUES ('FTXN00019', 'Pending', '750', '4', '5', '250', 'D2400002', 'I012', 'F2400009', '150', '2024-01-17', '2024-01-20', '110001', 'Nehru Street', 'T2400007', '2024-01-19');
+UPDATE displayitem set qtyonsell=qtyonsell-150 where dealerid='D2400002' AND itemid='I012';
+
+
+INSERT INTO FarmerSupplyTransaction  VALUES ('FTXN00020', 'Accepted', '2015', '5', '4', '230', 'D2400003', 'I021', 'F2400001', '5', '2024-01-15', '2024-01-19', '395003', 'Bunder Chowk', 'T2400009', '2024-01-19');
+UPDATE displayitem set qtyonsell=qtyonsell-5 where dealerid='D2400003' AND itemid='I021';
+
+
+INSERT INTO FarmerSupplyTransaction  VALUES ('FTXN00027', 'Pending', '1250', '5', '3', '102', 'D2400005', 'I023', 'F2400009', '3', '2024-10-02', '2024-10-05', '396445', 'Mehta Farms, Chikhli', 'T2400014', '2024-10-07');
+UPDATE displayitem set qtyonsell=qtyonsell-3 where dealerid='D2400005' AND itemid='I023';
+
+
+INSERT INTO FarmerSupplyTransaction  VALUES ('FTXN00028', 'Delivered', '1150', '4', '5', '110', 'D2400009', 'I011', 'F2400003', '50', '2024-03-21', '2024-03-23', '396445', 'Shop 12, Devka Beach Rd', 'T2400012', '2024-03-23');
+UPDATE displayitem set qtyonsell=qtyonsell-50 where dealerid='D2400009' AND itemid='I011';
+
+
+INSERT INTO FarmerSupplyTransaction  VALUES ('FTXN00029', 'Pending', '1900', '5', '5', '200', 'D2400007', 'I015', 'F2400008', '100', '2024-03-10', '2024-03-14', '122001', 'Atgam Street', 'T2400011', '2024-03-14');
+UPDATE displayitem set qtyonsell=qtyonsell-100 where dealerid='D2400007' AND itemid='I015';
+
+
+INSERT INTO FarmerSupplyTransaction  VALUES ('FTXN00030', 'Accepted', '920', '4', '3', '92', 'D2400001', 'I001', 'F2400010', '80', '2025-01-20', '2025-02-01', '395003', 'Bunder Chowk', 'T2400005', '2025-01-31');
+UPDATE displayitem set qtyonsell=qtyonsell-80 where dealerid='D2400001' AND itemid='I001';
+
+
+INSERT INTO FarmerSupplyTransaction  VALUES ('FTXN00016', 'Delivered', '830', '5', '5', '107', 'D2400006', 'I006', 'F2400016', '65', '2021-03-21', '2024-03-25', '395003', 'Shop 5, Bunder Chowk', 'T2400008', '2024-03-24');
+UPDATE displayitem set qtyonsell=qtyonsell-65 where dealerid='D2400006' AND itemid='I006';
+
+INSERT INTO BuyerSupplyTransaction  VALUES ('TTXN00002', 'Accepted', '1425.38', null, null, '100', 'F2400001', 'G001', 'B2400007', '50', '2024-06-21', '2024-06-25', '110003', 'Bazar Road', 'T2400009', null);
+UPDATE displayitem set qtyonsell=qtyonsell-50 where dealerid='F2400001' AND itemid='G001';
+
+INSERT INTO BuyerSupplyTransaction  VALUES ('TTXN00003', 'Delivered', '1395.33', '4', '4', '90', 'F2400011', 'F005', 'B2400007', '70', '2024-03-03', '2024-03-07', '360001', 'Krishna Farm, Azad Nagar', 'T2400009', '2024-03-06');
+UPDATE displayitem set qtyonsell=qtyonsell-70 where dealerid='F2400001' AND itemid='F005';
+
+INSERT INTO BuyerSupplyTransaction  VALUES ('TTXN00004', 'Delivered', '600', '5', '5', '40', 'F2400014', 'P001', 'B2400009', '45', '2025-09-12', '2025-09-14', '370201', 'Akod Bazaar', 'T2400008', '2025-09-14');
+UPDATE displayitem set qtyonsell=qtyonsell-45 where dealerid='F2400014' AND itemid='P001';
+
+INSERT INTO BuyerSupplyTransaction  VALUES ('TTXN00005', 'Delivered', '2100.22', '4', '3', '232', 'F2400003', 'P006', 'B2400006', '60', '2025-01-23', '2025-01-30', '400005', 'Laxmi Nagar', 'T2400007', '2025-01-29');
+UPDATE displayitem set qtyonsell=qtyonsell-60 where dealerid='F2400003' AND itemid='P006';
+
+INSERT INTO BuyerSupplyTransaction  VALUES ('TTXN00006', 'Delivered', '1300', '4', '5', '100', 'F2400012', 'F006', 'B2400006', '100', '2024-12-30', '2025-01-04', '400005', 'Laxmi Nagar', 'T2400009', '2025-01-03');
+UPDATE displayitem set qtyonsell=qtyonsell-100 where dealerid='F2400012' AND itemid='F006';
+
+INSERT INTO BuyerSupplyTransaction  VALUES ('TTXN00007', 'Delivered', '2200', '5', '5', '255', 'F2400001', 'P003', 'B2400006', '70', '2024-02-21', '2024-03-02', '395007', 'Plot 8, Wanakbara Road', 'T2400007', '2024-03-02');
+UPDATE displayitem set qtyonsell=qtyonsell-70 where dealerid='F2400001' AND itemid='P003';
+
+INSERT INTO BuyerSupplyTransaction  VALUES ('TTXN00008', 'Pending', '900', null, null, '60', 'F2400007', 'F001', 'B2400006', '40', '2024-02-21', '2024-02-25', '395007', 'Plot 8, Wanakbara Road', 'T2400008', '2024-02-26');
+UPDATE displayitem set qtyonsell=qtyonsell-40 where dealerid='F2400007' AND itemid='F001';
+
+INSERT INTO BuyerSupplyTransaction  VALUES ('TTXN00009', 'Delivered', '145', '4', '4', '22.5', 'F2400003', 'G003', 'B2400001', '60', '2025-03-10', '2025-03-13', '380009', 'Shastri Street', 'T2400011', '2025-03-13');
+UPDATE displayitem set qtyonsell=qtyonsell-60 where dealerid='F2400003' AND itemid='G003';
+
+INSERT INTO BuyerSupplyTransaction  VALUES ('TTXN00010', 'Pending', '130', '4', '3', '35.2', 'F2400010', 'F004', 'B2400002', '50', '2025-03-15', '2025-03-19', '110003', 'Bazar Road', 'T2400012', null);
+UPDATE displayitem set qtyonsell=qtyonsell-50 where dealerid='F2400010' AND itemid='F004';
+
+INSERT INTO BuyerSupplyTransaction  VALUES ('TTXN00019', 'Accepted', '1520', '4', '5', '120', 'F2400005', 'G005', 'B2400008', '60', '2024-01-20', '2024-01-24', '360001', 'Azad Nagar', 'T2400007', '2024-01-23');
+UPDATE displayitem set qtyonsell=qtyonsell-60 where dealerid='F2400005' AND itemid='G005';
+
+INSERT INTO BuyerSupplyTransaction  VALUES ('TTXN00020', 'Pending', '1920', '4', '3', '90', 'F2400001', 'G001', 'B2400004', '24', '2024-03-21', '2024-03-25', '110004', 'Bus Stand Road', 'T2400003', '2024-03-26');
+UPDATE displayitem set qtyonsell=qtyonsell-24 where dealerid='F2400001' AND itemid='G001';
+
+INSERT INTO BuyerSupplyTransaction  VALUES ('TTXN00011', 'Delivered', '100', '3', '4', '18.3', 'F2400005', 'G005', 'B2400005', '25', '2025-03-20', '2025-03-22', '360001', 'Azad Nagar', 'T2400002', '2025-03-22');
+UPDATE displayitem set qtyonsell=qtyonsell-25 where dealerid='F2400005' AND itemid='G005';
+
+INSERT INTO BuyerSupplyTransaction  VALUES ('TTXN00012', 'Accepted', '1', null, null, '10', 'F2400014', 'P002', 'B2400009', '0', '2025-03-25', '2025-03-26', '396580', 'Bazar Road', 'T2400004', null);
+UPDATE displayitem set qtyonsell=qtyonsell-0 where dealerid='F2400014' AND itemid='P002';
+
+INSERT INTO BuyerSupplyTransaction  VALUES ('TTXN00013', 'Delivered', '170', '4', '4', '42', 'F2400001', 'G001', 'B2400006', '40', '2025-03-28', '2025-04-01', '370201', 'Nehru Street', 'T2400013', '2025-04-01');
+UPDATE displayitem set qtyonsell=qtyonsell-40 where dealerid='F2400001' AND itemid='G001';
+
+INSERT INTO BuyerSupplyTransaction  VALUES ('TTXN00014', 'Delivered', '110', '4', '4', '28.6', 'F2400001', 'G001', 'B2400003', '30', '2025-04-02', '2025-04-04', '362015', 'Laxmi Nagar', 'T2400010', '2025-04-04');
+UPDATE displayitem set qtyonsell=qtyonsell-30 where dealerid='F2400001' AND itemid='G001';
+
+INSERT INTO BuyerSupplyTransaction  VALUES ('TTXN00015', 'Delivered', '155', '4', '4', '38.9', 'F2400008', 'F002', 'B2400004', '45', '2025-04-05', '2025-04-08', '110001', 'Nehru Street', 'T2400012', '2025-04-08');
+UPDATE displayitem set qtyonsell=qtyonsell-45 where dealerid='F2400008' AND itemid='F002';
+
+INSERT INTO BuyerSupplyTransaction  VALUES ('TTXN00016', 'Pending', '95', '3', '4', '20.7', 'F2400004', 'G004', 'B2400007', '20', '2025-04-07', '2025-04-10', '380015', 'Station Road', 'T2400007', null);
+UPDATE displayitem set qtyonsell=qtyonsell-20 where dealerid='F2400004' AND itemid='G004';
+
+INSERT INTO BuyerSupplyTransaction  VALUES ('TTXN00017', 'Delivered', '120', '4', '4', '31.4', 'F2400011', 'F005', 'B2400008', '35', '2025-04-09', '2025-04-11', '110004', 'Bus Stand Road', 'T2400006', '2025-04-11');
+UPDATE displayitem set qtyonsell=qtyonsell-35 where dealerid='F2400011' AND itemid='F005';
+
+INSERT INTO BuyerSupplyTransaction  VALUES ('TTXN00018', 'Delivered', '165', '4', '4', '39.2', 'F2400012', 'F006', 'B2400006', '38', '2025-04-10', '2025-04-13', '110005', 'Diu Fort Road', 'T2400004', '2025-04-13');
+UPDATE displayitem set qtyonsell=qtyonsell-38 where dealerid='F2400012' AND itemid='F006';

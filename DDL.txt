@@ -1,0 +1,134 @@
+create schema agrimart;
+set search_path to agrimart;
+
+CREATE TABLE pincodetable( 
+    pincode varchar(6) PRIMARY KEY, 
+    state varchar(30) NOT NULL, 
+    city varchar(30) NOT NULL, 
+    district varchar(30) NOT NULL 
+); 
+
+CREATE TABLE address( 
+    addressline varchar(50), 
+    pincode varchar(6) REFERENCES pincodetable(pincode) ON DELETE CASCADE ON UPDATE CASCADE, 
+    PRIMARY KEY(addressline,pincode) 
+); 
+
+CREATE TABLE registers( 
+    userid varchar(10) PRIMARY KEY, 
+    firstname varchar(15) NOT NULL, 
+    middlename varchar(15) NOT NULL, 
+    lastname varchar(15) NOT NULL, 
+    category char NOT NULL, 
+    email varchar(40) NOT NULL, 
+    pincode varchar(6) NOT NULL, 
+    addressline varchar(50) NOT NULL, 
+    CONSTRAINT fk_address FOREIGN KEY (pincode, addressline) REFERENCES 
+	address(pincode, addressline) ON DELETE CASCADE ON UPDATE CASCADE,
+ 	password varchar(15) NOT NULL, 
+    contactno varchar(10) NOT NULL 
+); 
+ 
+CREATE TABLE dealer( 
+    dealerid varchar(10) PRIMARY KEY REFERENCES registers(userid) ON DELETE CASCADE ON UPDATE CASCADE 
+); 
+ 
+CREATE TABLE farmer( 
+    farmerid varchar(10) PRIMARY KEY REFERENCES registers(userid) ON DELETE CASCADE ON UPDATE CASCADE 
+); 
+ 
+CREATE TABLE transportprovider( 
+    transportproviderid varchar(10) PRIMARY KEY REFERENCES registers(userid) ON DELETE CASCADE ON UPDATE CASCADE 
+); 
+ 
+CREATE TABLE buyer( 
+    buyerid varchar(10) PRIMARY KEY REFERENCES registers(userid) ON DELETE CASCADE ON UPDATE CASCADE 
+); 
+ 
+CREATE TABLE item( 
+    itemid varchar(10) PRIMARY KEY, 
+    itemname varchar(20) NOT NULL 
+); 
+ 
+CREATE TABLE crop( 
+    cropid varchar(10) PRIMARY KEY, 
+    cropname varchar(10) NOT NULL 
+);
+
+CREATE TABLE displayitem( 
+    dealerid varchar(10) REFERENCES dealer(dealerid) ON DELETE CASCADE ON UPDATE CASCADE, 
+    itemid varchar(10) REFERENCES item(itemid) ON DELETE CASCADE ON UPDATE CASCADE, 
+    weightperqty numeric(8,2) NOT NULL, 
+    qtyonsell integer NOT NULL, 
+    description text NOT NULL, 
+    rate float NOT NULL, 
+    pincode varchar(6) NOT NULL, 
+    addressline varchar(50) NOT NULL, 
+    CONSTRAINT fk_address FOREIGN KEY (pincode, addressline) REFERENCES 
+	address(pincode, addressline) ON DELETE CASCADE ON UPDATE CASCADE, 
+    PRIMARY KEY(dealerid,itemid) 
+); 
+ 
+CREATE TABLE farmersupplytransaction( 
+    transactionid varchar(10) PRIMARY KEY, 
+    status varchar(10) NOT NULL, 
+    freightcharges float, 
+    dealerrating numeric(1) , 
+    transportproviderrating numeric(1), 
+    distance float NOT NULL, 
+    dealerid varchar(10) NOT NULL, 
+    itemid varchar(10) NOT NULL, 
+    farmerid varchar(10) REFERENCES farmer(farmerid) ON DELETE CASCADE ON UPDATE CASCADE, 
+    qtybought integer NOT NULL, 
+    orderdate date NOT NULL, 
+    deliverydate date NOT NULL, 
+    pincode varchar(6) NOT NULL, 
+    addressline varchar(50) NOT NULL, 
+    transportproviderid varchar(10) REFERENCES 
+	transportprovider(transportproviderid)ON DELETE CASCADE ON UPDATE CASCADE, 
+    delivereddate date, 
+    CONSTRAINT fk_address FOREIGN KEY (pincode, addressline) REFERENCES 
+	address(pincode, addressline) ON DELETE CASCADE ON UPDATE CASCADE, 
+    CONSTRAINT fk_displayitem FOREIGN KEY (dealerid, itemid) REFERENCES 
+	displayitem(dealerid, itemid) ON DELETE CASCADE ON UPDATE CASCADE,
+	CHECK (orderdate <= deliverydate AND orderdate <= delivereddate)
+); 
+ 
+CREATE TABLE displaycrop( 
+    cropid varchar(10) REFERENCES crop(cropid) ON DELETE CASCADE ON UPDATE CASCADE, 
+    farmerid varchar(10) REFERENCES farmer(farmerid) ON DELETE CASCADE ON UPDATE CASCADE,
+ 	weightperqty numeric(8,2) NOT NULL, 
+    qtyonsell integer NOT NULL, 
+    description text NOT NULL, 
+    rate float NOT NULL, 
+    pincode varchar(6) NOT NULL, 
+    addressline varchar(50) NOT NULL, 
+    CONSTRAINT fk_address FOREIGN KEY (pincode, addressline) REFERENCES 
+	address(pincode, addressline) ON DELETE CASCADE ON UPDATE CASCADE, 
+    PRIMARY KEY(cropid,farmerid) 
+); 
+ 
+CREATE TABLE buyersupplytransaction( 
+    transactionid varchar(10) PRIMARY KEY, 
+    status varchar(10) NOT NULL, 
+    freightcharges float, 
+    farmerrating numeric(1), 
+    transportproviderrating numeric(1), 
+    distance float NOT NULL, 
+    farmerid varchar(10) NOT NULL, 
+    cropid varchar(10) NOT NULL, 
+    buyerid varchar(10) REFERENCES buyer(buyerid) ON DELETE CASCADE ON UPDATE CASCADE, 
+    qtybought integer NOT NULL, 
+    orderdate date NOT NULL, 
+    deliverydate date NOT NULL, 
+    pincode varchar(6) NOT NULL, 
+    addressline varchar(50) NOT NULL, 
+    transportproviderid varchar(10) REFERENCES 
+	transportprovider(transportproviderid)ON DELETE CASCADE ON UPDATE CASCADE, 
+    delivereddate date, 
+    CONSTRAINT fk_address FOREIGN KEY (pincode, addressline) REFERENCES 
+	address(pincode, addressline) ON DELETE CASCADE ON UPDATE CASCADE, 
+    CONSTRAINT fk_displaycrop FOREIGN KEY (farmerid, cropid) REFERENCES 
+	displaycrop(farmerid, cropid) ON DELETE CASCADE ON UPDATE CASCADE,
+	CHECK (orderdate <= deliverydate AND orderdate <= delivereddate)
+);
